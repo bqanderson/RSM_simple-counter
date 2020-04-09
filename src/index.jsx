@@ -9,7 +9,7 @@ const App = () => {
   return (
     <main className='Application'>
       <section className='Counters'>
-        <Counter max={15} step={5} />
+        <Counter min={-15} max={15} step={5} />
       </section>
     </main>
   )
